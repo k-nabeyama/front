@@ -11,7 +11,7 @@ const optionsNumSearches = [
 
 export default function Home() {
 
-  const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL;
+  const BACKEND = 'https://backend-git-main-otameshi2.vercel.app/';
 
   const [trends, setTrends] = useState<string[]>([]);
   const [keyword, setKeyword] = useState("");
